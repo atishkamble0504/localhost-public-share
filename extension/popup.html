@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Localhost Public URL</title>
+
+  <!-- Content Security Policy -->
+  <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self';
+                 script-src 'self';
+                 style-src 'self';
+                 img-src 'self' data:;
+                 connect-src http://127.0.0.1:54321 http://localhost:54321;" />
+
+  <link rel="stylesheet" href="popup.css" />
+</head>
+
+<body>
+  <div class="container">
+    <h2 class="title">Localhost Public URL</h2>
+
+    <!-- Dynamic Content -->
+    <div id="content"></div>
+  </div>
+
+  <!-- QR Library -->
+  <script src="qrcode.min.js"></script>
+
+  <!-- Main Logic -->
+  <script src="popup.js"></script>
+</body>
+</html>

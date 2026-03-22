@@ -1,0 +1,203 @@
+/* ============================= */
+/* Base Layout */
+/* ============================= */
+
+body {
+  font-family: Arial, sans-serif;
+  width: 360px;
+  padding: 14px;
+  background: #0f172a;
+  color: #f1f5f9;
+  margin: 0;
+}
+
+.title {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: #38bdf8;
+}
+
+/* ============================= */
+/* Card Styling */
+/* ============================= */
+
+.card {
+  background: #1e293b;
+  padding: 14px;
+  border-radius: 10px;
+  margin-top: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* ============================= */
+/* Buttons */
+/* ============================= */
+
+button {
+  width: 100%;
+  padding: 9px;
+  margin-top: 8px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 13px;
+  transition: 0.2s ease;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+.share-btn {
+  background: #2563eb;
+  color: white;
+}
+
+.copy-btn {
+  background: #16a34a;
+  color: white;
+}
+
+.stop-btn {
+  background: #dc2626;
+  color: white;
+}
+
+.danger-btn {
+  background: #b91c1c;
+  color: white;
+}
+
+.save-btn {
+  background: #38bdf8;
+  color: black;
+}
+
+/* ============================= */
+/* Inputs & Select */
+/* ============================= */
+
+select,
+input[type="number"] {
+  width: 100%;
+  padding: 8px;
+  border-radius: 8px;
+  border: none;
+  margin-top: 6px;
+  background: #334155;
+  color: white;
+  font-size: 13px;
+  outline: none;
+}
+
+select:focus,
+input:focus {
+  background: #475569;
+}
+
+/* Hidden Input */
+.hidden-input {
+  display: none;
+}
+
+
+/* ============================= */
+/* URL Display */
+/* ============================= */
+
+.url-box {
+  font-size: 12px;
+  word-break: break-all;
+  margin-top: 6px;
+  background: #0f172a;
+  padding: 6px;
+  border-radius: 6px;
+  border: 1px solid #334155;
+}
+
+/* ============================= */
+/* QR Section */
+/* ============================= */
+
+.qr-container {
+  margin-top: 15px;
+  text-align: center;
+}
+
+/* ============================= */
+/* Timer Section */
+/* ============================= */
+
+.timer-section {
+  margin-top: 12px;
+}
+
+.timer-label {
+  font-size: 12px;
+  color: #94a3b8;
+  margin-bottom: 4px;
+  display: block;
+}
+
+.timer-box {
+  font-size: 13px;
+  margin-top: 8px;
+  text-align: center;
+  font-weight: 600;
+  color: #22c55e;
+}
+
+.timer-expired {
+  color: #ef4444;
+}
+
+/* ============================= */
+/* Notes / Info Text */
+/* ============================= */
+
+.note-text {
+  font-size: 12px;
+  margin-top: 8px;
+  color: #cbd5e1;
+}
+
+/* ============================= */
+/* Messages */
+/* ============================= */
+
+.message {
+  margin-top: 10px;
+  padding: 8px;
+  border-radius: 8px;
+  background: #334155;
+  font-size: 12px;
+}
+
+.message.success {
+  background: #14532d;
+  color: #bbf7d0;
+}
+
+.message.error {
+  background: #7f1d1d;
+  color: #fecaca;
+}
+
+/* ============================= */
+/* Utility Spacing */
+/* ============================= */
+
+.mt-6 {
+  margin-top: 6px;
+}
+
+.mt-8 {
+  margin-top: 8px;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
