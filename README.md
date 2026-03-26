@@ -12,10 +12,7 @@ It automatically generates a shareable link and QR code — making it easy to te
 
 
 ## 🎥 Demo Video
-
-Watch how the extension works in real-time:
-
-[![Watch Demo](https://img.youtube.com/vi/gW-BjU5cfbQ/0.jpg)](https://youtu.be/gW-BjU5cfbQ)
+[![Watch Demo](https://img.youtube.com/vi/1r5ZomWBZw8/0.jpg)](https://www.youtube.com/watch?v=1r5ZomWBZw8)
 
 ---
 
